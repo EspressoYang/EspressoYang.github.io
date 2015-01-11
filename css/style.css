@@ -1723,26 +1723,26 @@ footer {
   padding: 0 2% 0.5em;
 }
 #footer {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
 #footer .line {
-  width: 100%;
+  width: 80%;
   height: 14em;
   margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
   #footer .line {
-    width: 10em;
+    width: 8em;
     float: left;
     position: relative;
   }
 }
 #footer .line span {
   display: block;
-  width: 0.5em;
+  width: 0.25em;
   height: 6.25em;
   border-right: 0.125em solid #fff;
   margin: 0 auto;
@@ -1754,11 +1754,219 @@ footer {
     margin: 0 0 1.5em;
   }
 }
+.line1 {
+  width: 80%;
+  height: 14em;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line1 {
+    width: 8em;
+    float: left;
+    position: relative;
+  }
+}
+.line1 span {
+  display: block;
+  width: 0.25em;
+  height: 6.25em;
+  border-right: 0.125em solid #fff;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line1 span {
+    position: absolute;
+    left: 3em;
+    margin: 0 0 1.5em;
+  }
+}
+.line2 {
+  width: 100%;
+  height: 14em;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line2 {
+    width: 8em;
+    float: left;
+    position: relative;
+  }
+}
+.line2 span {
+  display: block;
+  width: 0.25em;
+  height: 6.25em;
+  border-right: 0.125em solid #fff;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line2 span {
+    position: absolute;
+    left: 3em;
+    margin: 0 0 1.5em;
+  }
+}
+.line3 {
+  width: 100%;
+  height: 14em;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line3 {
+    width: 8em;
+    float: left;
+    position: relative;
+  }
+}
+.line3 span {
+  display: block;
+  width: 0.25em;
+  height: 6.25em;
+  border-right: 0.125em solid #fff;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line3 span {
+    position: absolute;
+    left: 3em;
+    margin: 0 0 1.5em;
+  }
+}
+.line4 {
+  width: 100%;
+  height: 14em;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line4 {
+    width: 8em;
+    float: left;
+    position: relative;
+  }
+}
+.line4 span {
+  display: block;
+  width: 0.25em;
+  height: 6.25em;
+  border-right: 0.125em solid #fff;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line4 span {
+    position: absolute;
+    left: 3em;
+    margin: 0 0 1.5em;
+  }
+}
+.line5 {
+  width: 100%;
+  height: 14em;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line5 {
+    width: 8em;
+    float: left;
+    position: relative;
+  }
+}
+.line5 span {
+  display: block;
+  width: 0.25em;
+  height: 6.25em;
+  border-right: 0.125em solid #fff;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line5 span {
+    position: absolute;
+    left: 3em;
+    margin: 0 0 1.5em;
+  }
+}
+.line6 {
+  width: 100%;
+  height: 14em;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line6 {
+    width: 8em;
+    float: left;
+    position: relative;
+  }
+}
+.line6 span {
+  display: block;
+  width: 0.25em;
+  height: 6.25em;
+  border-right: 0.125em solid #fff;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line6 span {
+    position: absolute;
+    left: 3em;
+    margin: 0 0 1.5em;
+  }
+}
+.line7 {
+  width: 100%;
+  height: 14em;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line7 {
+    width: 8em;
+    float: left;
+    position: relative;
+  }
+}
+.line7 span {
+  display: block;
+  width: 0.25em;
+  height: 6.25em;
+  border-right: 0.125em solid #fff;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line7 span {
+    position: absolute;
+    left: 3em;
+    margin: 0 0 1.5em;
+  }
+}
+.line8 {
+  width: 100%;
+  height: 14em;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line8 {
+    width: 8em;
+    float: left;
+    position: relative;
+  }
+}
+.line8 span {
+  display: block;
+  width: 0.25em;
+  height: 6.25em;
+  border-right: 0.125em solid #fff;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .line8 span {
+    position: absolute;
+    left: 3em;
+    margin: 0 0 1.5em;
+  }
+}
 .author {
   width: 6.875em;
   height: 6.875em;
   margin: 0 auto;
-  background: no-repeat url("/img/deng.jpg") left top;
+  background: no-repeat url("/img/author.jpg") left top;
   -webkit-background-size: 6.875em 6.875em;
   -moz-background-size: 6.875em 6.875em;
   background-size: 6.875em 6.875em;
@@ -1779,6 +1987,246 @@ footer {
 }
 @media only screen and (min-width: 768px) {
   .author {
+    position: absolute;
+    top: 6em;
+    margin: 0 0 1.5em;
+  }
+}
+.author1 {
+  width: 6.875em;
+  height: 6.875em;
+  margin: 0 auto;
+  background: no-repeat url("/img/author.jpg") left top;
+  -webkit-background-size: 6.875em 6.875em;
+  -moz-background-size: 6.875em 6.875em;
+  background-size: 6.875em 6.875em;
+  -webkit-border-radius: 3.4375em;
+  border-radius: 3.4375em;
+  -webkit-transition: -webkit-transform 2s ease-out;
+  -moz-transition: -moz-transform 2s ease-out;
+  -o-transition: -o-transform 2s ease-out;
+  -ms-transition: -ms-transform 2s ease-out;
+  transition: transform 2s ease-out;
+}
+.author1:hover {
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+@media only screen and (min-width: 768px) {
+  .author1 {
+    position: absolute;
+    top: 6em;
+    margin: 0 0 1.5em;
+  }
+}
+.author2 {
+  width: 6.875em;
+  height: 6.875em;
+  margin: 0 auto;
+  background: no-repeat url("/author2-img") left top;
+  -webkit-background-size: 6.875em 6.875em;
+  -moz-background-size: 6.875em 6.875em;
+  background-size: 6.875em 6.875em;
+  -webkit-border-radius: 3.4375em;
+  border-radius: 3.4375em;
+  -webkit-transition: -webkit-transform 2s ease-out;
+  -moz-transition: -moz-transform 2s ease-out;
+  -o-transition: -o-transform 2s ease-out;
+  -ms-transition: -ms-transform 2s ease-out;
+  transition: transform 2s ease-out;
+}
+.author2:hover {
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+@media only screen and (min-width: 768px) {
+  .author2 {
+    position: absolute;
+    top: 6em;
+    margin: 0 0 1.5em;
+  }
+}
+.author3 {
+  width: 6.875em;
+  height: 6.875em;
+  margin: 0 auto;
+  background: no-repeat url("/author3-img") left top;
+  -webkit-background-size: 6.875em 6.875em;
+  -moz-background-size: 6.875em 6.875em;
+  background-size: 6.875em 6.875em;
+  -webkit-border-radius: 3.4375em;
+  border-radius: 3.4375em;
+  -webkit-transition: -webkit-transform 2s ease-out;
+  -moz-transition: -moz-transform 2s ease-out;
+  -o-transition: -o-transform 2s ease-out;
+  -ms-transition: -ms-transform 2s ease-out;
+  transition: transform 2s ease-out;
+}
+.author3:hover {
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+@media only screen and (min-width: 768px) {
+  .author3 {
+    position: absolute;
+    top: 6em;
+    margin: 0 0 1.5em;
+  }
+}
+.author4 {
+  width: 6.875em;
+  height: 6.875em;
+  margin: 0 auto;
+  background: no-repeat url("/author4-img") left top;
+  -webkit-background-size: 6.875em 6.875em;
+  -moz-background-size: 6.875em 6.875em;
+  background-size: 6.875em 6.875em;
+  -webkit-border-radius: 3.4375em;
+  border-radius: 3.4375em;
+  -webkit-transition: -webkit-transform 2s ease-out;
+  -moz-transition: -moz-transform 2s ease-out;
+  -o-transition: -o-transform 2s ease-out;
+  -ms-transition: -ms-transform 2s ease-out;
+  transition: transform 2s ease-out;
+}
+.author4:hover {
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+@media only screen and (min-width: 768px) {
+  .author4 {
+    position: absolute;
+    top: 6em;
+    margin: 0 0 1.5em;
+  }
+}
+.author5 {
+  width: 6.875em;
+  height: 6.875em;
+  margin: 0 auto;
+  background: no-repeat url("/author5-img") left top;
+  -webkit-background-size: 6.875em 6.875em;
+  -moz-background-size: 6.875em 6.875em;
+  background-size: 6.875em 6.875em;
+  -webkit-border-radius: 3.4375em;
+  border-radius: 3.4375em;
+  -webkit-transition: -webkit-transform 2s ease-out;
+  -moz-transition: -moz-transform 2s ease-out;
+  -o-transition: -o-transform 2s ease-out;
+  -ms-transition: -ms-transform 2s ease-out;
+  transition: transform 2s ease-out;
+}
+.author5:hover {
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+@media only screen and (min-width: 768px) {
+  .author5 {
+    position: absolute;
+    top: 6em;
+    margin: 0 0 1.5em;
+  }
+}
+.author6 {
+  width: 6.875em;
+  height: 6.875em;
+  margin: 0 auto;
+  background: no-repeat url("/author6-img") left top;
+  -webkit-background-size: 6.875em 6.875em;
+  -moz-background-size: 6.875em 6.875em;
+  background-size: 6.875em 6.875em;
+  -webkit-border-radius: 3.4375em;
+  border-radius: 3.4375em;
+  -webkit-transition: -webkit-transform 2s ease-out;
+  -moz-transition: -moz-transform 2s ease-out;
+  -o-transition: -o-transform 2s ease-out;
+  -ms-transition: -ms-transform 2s ease-out;
+  transition: transform 2s ease-out;
+}
+.author6:hover {
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+@media only screen and (min-width: 768px) {
+  .author6 {
+    position: absolute;
+    top: 6em;
+    margin: 0 0 1.5em;
+  }
+}
+.author7 {
+  width: 6.875em;
+  height: 6.875em;
+  margin: 0 auto;
+  background: no-repeat url("/author7-img") left top;
+  -webkit-background-size: 6.875em 6.875em;
+  -moz-background-size: 6.875em 6.875em;
+  background-size: 6.875em 6.875em;
+  -webkit-border-radius: 3.4375em;
+  border-radius: 3.4375em;
+  -webkit-transition: -webkit-transform 2s ease-out;
+  -moz-transition: -moz-transform 2s ease-out;
+  -o-transition: -o-transform 2s ease-out;
+  -ms-transition: -ms-transform 2s ease-out;
+  transition: transform 2s ease-out;
+}
+.author7:hover {
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+@media only screen and (min-width: 768px) {
+  .author7 {
+    position: absolute;
+    top: 6em;
+    margin: 0 0 1.5em;
+  }
+}
+.author8 {
+  width: 6.875em;
+  height: 6.875em;
+  margin: 0 auto;
+  background: no-repeat url("/author8-img") left top;
+  -webkit-background-size: 6.875em 6.875em;
+  -moz-background-size: 6.875em 6.875em;
+  background-size: 6.875em 6.875em;
+  -webkit-border-radius: 3.4375em;
+  border-radius: 3.4375em;
+  -webkit-transition: -webkit-transform 2s ease-out;
+  -moz-transition: -moz-transform 2s ease-out;
+  -o-transition: -o-transform 2s ease-out;
+  -ms-transition: -ms-transform 2s ease-out;
+  transition: transform 2s ease-out;
+}
+.author8:hover {
+  -webkit-transform: rotateZ(360deg);
+  -moz-transform: rotateZ(360deg);
+  -o-transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  transform: rotateZ(360deg);
+}
+@media only screen and (min-width: 768px) {
+  .author8 {
     position: absolute;
     top: 6em;
     margin: 0 0 1.5em;
