@@ -1,13 +1,17 @@
 
- <!DOCTYPE HTML>
+  
+    <!DOCTYPE HTML>
 <html >
 <head>
   <meta charset="UTF-8">
   
-    <title>HuaXiaIT</title>
+    <title>华夏IT版本更新日志 | HuaXiaIT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Yang">
+    
+    <meta name="description" content="华夏IT圈V0.11.华夏IT圈网页搭建Demo；
+华夏IT圈V0.21.更新华夏成员头像挂件；2.页面留言板功能新增；3.自定义页面整合华夏IT聊天功能实现中；-下拉滚动条还不能及时更新-ENTER没设置成默认发送聊天内容4.页面布局代码优化；">
     
     
     
@@ -37,9 +41,9 @@ var _hmt = _hmt || [];
 
 
 
-  <body>
-    <header>
-      <div>
+      <body>
+        <header>
+          <div>
 		
 			<div id="imglogo">
 				<a href="/"><img src="/img/huaxia.png" alt="HuaXiaIT" title="HuaXiaIT"/></a>
@@ -73,44 +77,54 @@ var _hmt = _hmt || [];
 			</nav>			
 </div>
 
-    </header>
-    <div id="container">
-      <div id="main">
+        </header>
+        <div id="container">
+          <div id="main" class="page" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/page/index.html" title="华夏IT版本更新日志" itemprop="url">华夏IT版本更新日志</a>
+  </h1>
+  <p class="article-author">By
+    
+      <a href="http://yoursite.com" title="Yang">Yang</a>
+    </p>
+  <p class="article-time">
+    <time datetime="2015-01-16T15:02:56.000Z" itemprop="datePublished">Jan 16 2015</time>
+    Updated:<time datetime="2015-01-16T16:33:13.000Z" itemprop="dateModified">Jan 17 2015</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		<p>华夏IT圈V0.1<br>1.华夏IT圈网页搭建Demo；</p>
+<p>华夏IT圈V0.2<br>1.更新华夏成员头像挂件；<br>2.页面留言板功能新增；<br>3.自定义页面整合华夏IT聊天功能实现中；<br>-下拉滚动条还不能及时更新<br>-ENTER没设置成默认发送聊天内容<br>4.页面布局代码优化；</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
 
-  <section class="post" itemscope itemprop="blogPost">
-  
-    <a href="/2015/01/11/hello-world/" title="Hello World" itemprop="url">
-  
-    <h1 itemprop="name">Hello World</h1>
-    
-     
-           <p itemprop="description" >华夏IT 337157844本群创建于2015/1/6:</p>
-        
-    
-    <time datetime="2015-01-11T07:22:17.000Z" itemprop="datePublished">Jan 11 2015</time>
-  </a>
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://yoursite.com/page/index.html" data-title="华夏IT版本更新日志 | HuaXiaIT" data-tsina="null" class="share clearfix">
+  </div>
+
+</div>
+</footer>   	       
+	</article>
+	
+	
+<section class="comment">
+	<div class="ds-thread"></div>
 </section>
 
-
-</div>
-      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
-
-<div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
-<aside class="clearfix">
-
-  
-
-  
-
-  <div class="rsspart">
-	<a href="null" target="_blank" title="rss">RSS</a>
-</div>
-
-</aside>
-</div>
-    </div>
-    <footer><div id="footer" >
+</div>  
+        </div>
+        <footer><div id="footer" >
 	
 	<div class="line">
 		<span></span>
@@ -164,7 +178,7 @@ var _hmt = _hmt || [];
 		</p>
 </div>
 </footer>
-    <script src="/js/jquery-2.1.0.min.js"></script>
+        <script src="/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
   $('.navbar').click(function(){
@@ -211,10 +225,51 @@ $(document).ready(function(){
 </script>
 
 
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"null"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
 
 
 
 
 
-  </body>
- </html>
+      </body>
+     </html>
+     
