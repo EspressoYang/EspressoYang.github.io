@@ -1,0 +1,360 @@
+
+ <!DOCTYPE HTML>
+<html >
+<head>
+  <meta charset="UTF-8">
+  
+    <title>统一、廉价、实时、融合，2015大数据趋势 | HuaXiaIT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+    
+    <meta name="author" content="Yang">
+    
+    <meta name="description" content="【CSDN现场报道】2014年12月12-14日，由中国计算机学会（CCF）主办，CCF大数据专家委员会承办，中科院计算所与CSDN共同协办，以推进大数据科研、应用与产业发展为主旨的 2014中国大数据技术大会 （Big Data Technology Conference 2014，BDTC 20">
+    
+    
+    
+    
+    
+    <link rel="icon" href="/img/huaxia.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/pacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/pacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+    
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?4f79fb95c2714fe9f1f83d1c752eb3ec";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+</head>
+
+
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/huaxia.png" alt="HuaXiaIT" title="HuaXiaIT"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="HuaXiaIT">HuaXiaIT</a></h1>
+				<h2 class="blog-motto"></h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					
+						<li><a href="/">主页</a></li>
+					
+						<li><a href="/archives">目录</a></li>
+					
+						<li><a href="/lz">黄龙工作室</a></li>
+					
+						<li><a href="/page">留言板</a></li>
+					
+					<li>
+					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="text" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/02/01/统一、廉价、实时、融合，2015大数据趋势/" title="统一、廉价、实时、融合，2015大数据趋势" itemprop="url">统一、廉价、实时、融合，2015大数据趋势</a>
+  </h1>
+  <p class="article-author">By
+    
+      <a href="http://yoursite.com" title="Yang">Yang</a>
+    </p>
+  <p class="article-time">
+    <time datetime="2015-02-01T13:07:16.000Z" itemprop="datePublished">Feb 1 2015</time>
+    Updated:<time datetime="2015-02-01T13:19:51.000Z" itemprop="dateModified">Feb 1 2015</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">Contents</strong>
+		
+		</div>
+		
+		<p>【CSDN现场报道】2014年12月12-14日，由中国计算机学会（CCF）主办，CCF大数据专家委员会承办，中科院计算所与CSDN共同协办，以推进大数据科研、应用与产业发展为主旨的 2014中国大数据技术大会 （Big Data Technology Conference 2014，BDTC 2014）暨第二届CCF大数据学术会议在北京新云南皇冠假日酒店盛大开幕。<br>星环科技CTO孙元浩的演讲主题是“2015年大数据基础技术的演进趋势”。期间，他一共总结了四大趋势：SQL on Hadoop技术对SQL支持的完整度和性能大幅提升，混合架构将逐渐消失；从In-Memory Computing 转向 On-SSD Computing，固态盘将替代内存作为缓存；数据产生的速度以及处理的速度要求都在快速提高，实时大数据技术得到关注；虚拟化技术的快速演化与Hadoop技术的日益平台化，云计算与大数据终得融合。期间，他分享了Spark的一个数据：全球已有近50家企业围绕Spark提供产品和服务，11家提供商业Spark版本。</p>
+<p><img src="http://cms.csdnimg.cn/article/201412/13/548be37c37938.jpg" alt="孙元浩"><br>星环科技CTO 孙元浩</p>
+<p>以下为演讲实录<br>孙元浩：</p>
+<p>谢谢大家，谢谢查教授，我今天演讲的题目是2015年大数据技术的演进趋势，过去我们一直从事大数据实践，有一些心得跟大家分享一下。我们做了明年的预测，邀请大家一起验证。</p>
+<p>第一个趋势是随着SQL on Hadoop技术的快速发展，SQL完整程度的大幅提高和性能提升，我们认为混合架构逐渐开始消失。</p>
+<p>这里我解释一下为什么出现混合架构，在过去几年当中Hadoop这个技术最早开始互联网公司使用，十年之前开始发展，几年前互联网公司在企业里面用得越来越多，它处理非结构化数据和半结构化数据非常有利，但是处理结构化数据的时候功能不完整，用户觉得应该还需要使用数据库，或者MPP数据库，放在Hadoop旁边协助处理结构化的数据。第二个原因Hadoop是为几百TB，几个PB数据设计的，但是数据量小的时候，小于100T或者到10个T以下的时候，大家发现Hadoop的性能不如传统的MPP数据库，这时大家觉得有必要使用混合架构，把全部数据放在Hadoop上，部分数据放到MPP数据库进行计算，或者把实时数据放到MPP数据库，把历史数据放到Hadoop里面，当数据量积累很大的时候也让Hadoop计算，这是混合架构典型的部署方式。</p>
+<p>我们看到过去的三年当中Hadoop发展非常迅猛，很多公司快速做SQL开发，性能也有很大提升。我们总结了一下市场上大概有四种SQL on Hadoop的技术，我是说Hadoop系统里面原生开发SQL引擎的公司和技术。第一个是Impala，它的引擎采用类似于MPP的引擎。第二家是Tez，它吸收了Spark的一些设计思想。这个产品是2012年大概五六月份开始成型。第三个我们公司的产品我们叫做Transwarp Inceptor，这是基于Spark开发的SQL引擎，我们去年10月份是第一个版本，目前支持SQL2003，支持函数、游标等功能，我们SQL完整程度目前是所有Hadoop里面支持最完整的。同时，还有 SparkSQL和Drill。四类引擎每一个都在独立发展自己的技术，而Spark会成为一个主流。我们已经可以支持TPC-DS所有的测试项，TPC-DS是用来衡量数据仓库的执行性能的，里面有大量的非等值JOIN语句，这使SQL引擎支持比较有难度的。</p>
+<p>我们做的第一个判断是混合架构会逐渐的消失，过去MPP数据库有三个优势，第一个SQL支持完整，现在我们的SQL支持程度已经接近MPP数据库；第二个它比Hadoop性能高，但我们看到现在Hadoop性能可以超过MPP若干倍。第三个优势就是说它上面的BI工具，外延工具非常全，传统的BI厂商都已经转向Hadoop，Hadoop系统的BI工具也越来越丰富，还有一些新兴的创业公司在Hadoop上开发全新的BI工具，这些工具原生支持Hadoop，从这个角度来讲Hadoop的生态系统将很快超越传统MPP数据库。</p>
+<p>我们觉得在未来一年两年之内，Hadoop将逐渐取代MPP数据库，大家不需要用混合架构，不需要在不同数据库之间实现迁移了。有人说我MPP也在迁移，慢慢向Hadoop靠拢，这也是事实，整个MPP的数据库在慢慢消失，完全走到Hadoop上面来。我们希望最后结果就是数据全部放在Hadoop上，不管数据在几个GB级别还是10个PB级别，都可以在Hadoop上处理，真正做到无限的线性扩展。</p>
+<p>我们发现一个事实现在Spark成为最受欢迎的计算引擎，Impala已经开发了三年时间，SQL支持仍然不够完整，而通过Spark可以快速并行化SQL，SQL支持的完整程度可以快速提高。同时，通过Spark引擎我们证明新引擎性能可以超过MPP数据库。从今年开始Hadoop的社区发展非常快速，今年六月份的时候Spark Summit大会上，原来Hadoop生态系统中的各个厂商或项目都宣布开始全面支持Spark。我做了简单的统计，全球已经有近50家企业围绕Spark提供产品和服务，其中有11家提供商业的Spark版本，这是这里面所有的11家公司，我们也是认证的Spark发行版厂商。</p>
+<p>第二个趋势过去大家谈内存计算谈高效迭代计算，当时大家觉得这是非常好的方向，把数据放进内存进行缓存，内存速度是磁盘百倍到千倍，我们把这种技术应用到现实当中发现，内存容量小和价格高是比较大的限制条件，把所有数据全放内存的时候，像Spark，和Hadoop都是运行在JVM上的，内存大的时候，GC影响非常严重，我们能不能用更好的方式缓存数据？随着硬件技术的发展我们发现内存可以被大容量的SSD取代做缓存，这个也是非常明显的趋势。</p>
+<p>这张图列出了SSD硬件技术的发展，最底层是硬盘，现在SSD有几个量级的提升，我们拿市场上英特尔P3700 PCIe SSD的数据为例，读性能是每秒钟46万次，是硬盘的一千倍，吞吐量是硬盘10倍以上。还有一些厂商把SSD插在内存卡槽，做成内存条的形式。目前做的性能不如P3700，未来性能会逐渐的提升。SSD的内存相比性能对比显得没有这么大，因为吞吐量内存的数据是8.5GB/s，PCIe的SSD是2.8GB/s也就是只有三四倍的差距，SSD 的性能已经开始向内存接近，同时这个价格也在迅速下降，SSD公司在中国市场非常多，整个价格下降非常明显，今天中国市场可以以一万块钱到两万块钱买1TB的SSD，如果你买内存条只能买128GB的内存条，我们认为用SSD替代是比较好的方案。这是我们一组数据，把数据放在磁盘、内存和SSD上的对比。第一个我们发现我们把数据放在磁盘上，性能作为1的话，我们发现内存的性能仍然是最高的，蓝色的线是数据放在内存中的统计性能，红色的线是PCIe SSD的性能，SSD性能跟内存比较接近，我们看到每一个测试场景性能对比图，发现性能差距最多在30%，平均性能差异9.6%，基本控制在10%以内，你可以以十分之一的价格达到内存只差10%的性能的产品，你原来放在内存里可能只有几百GB或者几个TB的数据，现在你可以把几十TB的东西放在SSD上进行数据分析。<br>Hadoop2.6提出来一个概念，叫做Storage Tier，在HDFS上提供几层存储，一层是磁盘层，一层是SSD层，还有内存层，我可以指定你文件放在哪个层上面，以128MB数据块为单位，决定放在哪一层上面，以为这样性能可以迅速提升。我们很快发现其实没有那么简单，Hadoop是最早为大容量低速磁盘设计的，SSD比普通磁盘顺序读写性能大10倍，它随机访问性能是磁盘的一千倍，你如果不能利用随机访问的性能优势，你的提升不会像硬件指标这么显著。我们试过ORC格式，性能只比普通硬盘提升不到3倍。我们觉得明年这里有两个趋势，第一个趋势是基于磁盘的Hadoop慢慢开始为SSD做优化，未来会有更多的优化针对SSD专门做的。第二个趋势内存数据库这样厂商也开始觉得内存不够用，我不可能把所有数据都放在内存里，可能是几十T的数据我需要大容量的介质，SSD是理想的替代，已经有很多传统数据库厂商觉得他的数据库要专门为SSD做优化。我们设计了一种新的数据格式，叫做holodesk，以前Spark把数据放在内存里，我们首先把数据从Spark当中剥离出来，放到一个外部的介质上面。然后放到SSD上进行存储编码压缩，这里面采用了我们自己专有的编码技术，当然也有一些索引在上面，做了这个改造以后性能有比较大的提升。这里有一个测试对比，我们比较四种组合情况，一种是基于磁盘文本格式的，第二种在SSD运行TPC-DS的部分结果，我们选TPC-DS部分的场景，因为有的场景是CPU密集型的，磁盘性能不是瓶颈，可能不一定有提升，所以我们选一些IO密集型的场景来测。大家很快发现如果我不改变文件格式，同样文件放在磁盘和放在SSD，它的性能最高提升了1.5倍。这跟我们两三年前做过测试一样，我们把Hadoop集群的DataNode全换成SSD，性能提升大概是40%。把这个数据变成ORC格式，确实有助于提升性能，我可以过滤很多数据，可以充分高SSD的性能，这个格式性能额外得到了2.7倍的提升。但是这个还不够，还没有完全发挥SSD性能的优势，所以我们采用了我们设计的holodesk存储格式，我们采用编码方式也有点与众不同，用了这个存储格式以后比ORC再提升2倍以上，有些纯粹是IO密集的测试场景，可以提升五倍到十倍左右。如果采用新的列式存储方式，我们性能可以比磁盘快8到10倍，相信未来更多软件会专门利用SSD的这种特性。</p>
+<p>第三个趋势随着现在传感器网络、物联网的发展，数据产生的速度越来越快，当然在互联网里面早就有实时数据产生，使得实时大数据的技术慢慢开始得到更多的关注，我们预计明年有更多的应用。<br>怎么来处理实时数据和历史数据。Nathan提出了Lambda Architecture的架构。实时数据进入一个流处理系统进行检测分析，同时也进入Hadoop，全量数据放在Hadoop对历史数据进行分析，两者结果做融合，然后应用程序访问这个数据库做分析。今天为止没有哪个技术既能处理实时数据又能处理大量历史数据，所以Nathan提出了这样一个混合的架构，这个混合架构受到很多人的追捧。这种架构实时数据流里面处理完之后仍掉了，只把结果放在里面，也就是我不能对实时数据进行随机的查询，这是第一个问题。我把随时数据和历史数据分离后，我怎么形成统一的视图，怎么最后拼接起来，这是比较难的事情。第三个这个Serving DB可以完成快速查询但是不能做统计分析。这三个弱点很快大家意识到了，很快大家想出一个办法，有一个项目叫Druid，这个项目得到大家比较多的关注，现在Twitter和雅虎采用这种实时数据分析。Druid解决了两个问题，把实时数据和历史数据全部拼接起来变成一张视图，它内部把实时数据离线的收集起来拼成一个历史视图进行分析。Druid解决了快速采集和统一视图的问题，但是它还不能解决复杂统计和挖掘的问题。比较理想的架构最好是数据经过流处理以后直接进入一个数据库，这个数据库可以完整把实时数据和历史数据拼接起来，在上面既做高速查询又能做迭代分析，这是比较理想的，这样可以省去维护两套架构的麻烦，而且既能对实时数据进行分析，又能对历史数据进行分析，这是比较理想的架构，现在大家还在想有什么实现的方法。我们做了一个尝试，这是我们在应用大数据技术到国内各个行业的时候发现的普遍问题，这个驱动力来自于交通流的实时分析，如果我们部署整个集群的时候，他们希望看到早高峰晚高峰任何一个时刻每个路口的实时状况，一旦发生交通事故，某个地方产生拥堵会有连锁反应，产生连锁反应后需要快速分析这种情况的影响，这种情况用刚才的Lambda架构也不能很好实现。我们开发了分布式的缓存holodesk，存在内存或者是SSD上的，当实时数据流到里面去的时候，我们先用Spark Streaming进行实时检测和告警处理，这是一个批处理系统，可以短到一百毫秒，再小的延时现在还不能实现，Spark本身框架延时比较长。进入Spark内存以后同时我们在上面可以做非常多的实时的检测甚至是实时的挖掘，同时这个结果以及原有数据我们映射成二维关系表，做一个SQL转化，转化成一个历史存储。过去我们可以放在内存里，但是内存容量不够我们把全量数据放到SSD上，我们的holodesk支持快速插入，这样我可以把所有实时数据包括历史数据可以全部缓存到SSD上，这个集群可能是10个节点20个节点，你可以存放几年交通数据，这样可以对历史数据和实时数据进行很完整的分析。这个转化也是非常快的，我们支持高速的数据插入，数据持久性也得到保证，因为数据在SSD上，即使掉线也没有问题。这种方案解决了三个问题，第一个是可以有一个统一的视图，不管是历史还是实时都有，第二是可以通过标准SQL或者R语言做任意复杂的分析，第三是数据持久化问题也解决了。还有一个问题没有解决，如果把这个数据给在线用户访问，这个并发度还不够。改进的方法是一方面我们尽量降低查询的延时，另外我们也需要扩大集群规模来提高并发度。这个方案很好地解决了交通行业面临的问题。这个问题蛮普遍的，不光是交通行业，还有网站点击日志，我们也可以用这个方式做分析，我们可以对传感器的数据，例如工厂里传感器的数据进行快速的分析，而且传感器的数据可以全部在一张表里面。</p>
+<p>第四随着虚拟化技术快速演进，我们说云计算和大数据终于可以融合起来了。<br>虚拟机帮助快速部署已经得到了时间的验证，这种方式把一台机器拆分到很多小机器，每台机器给用户使用。大数据觉得一台机器不够，我需要上千台、几百台机器组成一台机器处理。这个怎么融合起来，是不是我把虚拟机替代物理机做成了一个集群？这个尝试基本上都是失败的，因为IO的瓶颈是非常严重的，特别是在虚拟机跑大数据应用，CPU利用往往达到99%，很少有人在虚拟机上把CPU用到99%，这样对hypervisor是很大的考验，稳定性成为一个大问题。最近一两年虚拟化技术在快速发展，不亚于一场新的技术革命。首先轻量级的Linux container技术出现，container之间可以做资源隔离，这使得虚拟机变得非常轻量级。很快一家公司叫做Docker发现应用打包迁移安装还是不方便，所以做了一个工具，使得你做应用打包迁移非常容易。大家发现还不大够，因为我要创立单个container或者单个应用比较容易，但是多个container应用就很麻烦。谷歌开发一个开源项目叫做Kubernetes， 简化了创建container集群的任务，你可以非常方便的创建Hadoop集群，也可以创建传统的应用，提供多container集群的部署同时也提供一些基础服务，比如说一些调度服务，这开始具备分布式操作系统的雏形。另外一个方向像大数据领域去年推出Hadoop2.0资源管理的框架YARN，这个确实是革命性的，因为把资源管理放在最底层，在上面可以跑多种计算框架，我们觉得可以一统天下了。随后大家发现YARN资源隔离做得不够好，内存／磁盘／IO没有管好。因此Hortonworks尝试把Google Kubernetes作为YARN的一个Application Manager, 内部用Docker进行资源调度。而另一家公司mesosphere异军突起，以mesos为资源调度核心，以docker作为container的管理基础工具，开发了一套分布式资源管理的框架，提出了数据中心操作系统的概念。这家公司最近融资了数千万美元。尽管底层技术在快速变化，但不妨碍一些公司已经提供Hadoop as a Service的服务，例如AltiScale，BlueData，Xplenty等。</p>
+<p>大家看到在这个领域过去一两年发生了革命，从底层虚拟化技术到上层都在发生非常大的变化。逐渐引出了数据中心操作系统的概念。我们把数据中心操作系统分成三层，最底层就跟操作系统内核是一样的，可以方便的创建方便销毁计算资源，包括对CPU／网络／内存／存储进行处理。同时我们还需要多个服务之间能够发现这种机制，这种机制是目前还是缺乏的，我们需要在这一层继续往上加一些基础服务。再往上是平台服务，我们可以创建Hadoop、Spark等我们可以部署这样传统应用。这种架构提出来我们发现现在市场上有几种，两个技术方向，我们不知道哪一种会获胜。一个方向是把YARN作为资源调度的基础，Kubernetes作为运行在YARN上的某一个应用框架，但实际上Kubernetes是和YARN并列在同一层的。另外一个技术方向是把调度器抽象出来作为plugin，例如YARN和mesos都可以作为Kubernetes的调度器，当然也可以实现自己的调度程序；使用docker或者coreOS进行container的管理，而hadoop等分布式服务运行在Kubernetes之上。对下能够提供资源隔离和管理，对上面能够提供各种服务，包括Hadoop生态系统的各种服务，这个可能是明年的主流趋势，现在还很难判断谁会获胜，但是我更倾向于第二种，我们可以首先尝试这两种方案，看哪种方案更有生命力。</p>
+<p>总结一下就是我们把明年的发展趋势归纳成四个，一个混合架构会逐渐消失，第二个我们发现SSD慢慢替代内存作用缓存，因为性价比更高。第三实时大数据技术得到广泛关注和应用，第四云计算与大数据终于可以融合。这里做个广告，大家可以去外面展台看看我们新版本，欢迎有兴趣的同学加入我们公司。</p>
+<p>转载自【CSDN】<br><a href="http://www.csdn.net/article/2014-12-13/2823115星环科技CTO孙元浩：统一、廉价、实时、融合，2015大数据趋势" target="_blank" rel="external">星环科技CTO孙元浩：统一、廉价、实时、融合，2015大数据趋势</a></p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://yoursite.com/2015/02/01/统一、廉价、实时、融合，2015大数据趋势/" data-title="统一、廉价、实时、融合，2015大数据趋势 | HuaXiaIT" data-tsina="null" class="share clearfix">
+  </div>
+
+</div>
+</footer>   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+
+<div class="next">
+<a href="/2015/01/18/技术团队的情绪与效率/"  title="技术团队的情绪与效率">
+ <strong>NEXT:</strong><br/> 
+ <span>技术团队的情绪与效率
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section class="comment">
+	<div class="ds-thread"></div>
+</section>
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="Show Sidebar"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">Contents</strong>
+  
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="Hide Sidebar"></a></div>
+<aside class="clearfix">
+
+  
+
+  
+
+  <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=4&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=2698289263&verifier=a9f41cb1&dpc=1"></iframe>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	<div class="line1">
+		<span></span>
+		<div class="author1"></div>
+	</div>
+	<div class="line2">
+		<span></span>
+		<div class="author2"></div>
+	</div>
+	<div class="line3">
+		<span></span>
+		<div class="author3"></div>
+	</div>
+	<div class="line4">
+		<span></span>
+		<div class="author4"></div>
+	</div>
+	<div class="line5">
+		<span></span>
+		<div class="author5"></div>
+	</div>
+	<div class="line6">
+		<span></span>
+		<div class="author6"></div>
+	</div>
+	<div class="line7">
+		<span></span>
+		<div class="author7"></div>
+	</div>
+	<div class="line8">
+		<span></span>
+		<div class="author8"></div>
+	</div>
+	
+	
+	<div class="social-font clearfix">
+		
+		
+		
+		
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2015 
+		
+		<a href="http://yoursite.com" target="_blank" title="Yang">Yang</a>
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"null"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+  </body>
+</html>
